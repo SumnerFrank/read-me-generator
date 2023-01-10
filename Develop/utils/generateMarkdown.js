@@ -27,6 +27,10 @@ function generateMarkdown(data) {
   ${data.learned}
   ##Stand Out
   ${data.unique}
+  ##Languages
+  ${data.language}
+  ##License
+  ${data.license}
 
 `;
 }

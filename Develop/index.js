@@ -1,13 +1,18 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require('fs');
+const { default: CheckboxPrompt } = require("inquirer/lib/prompts/checkbox");
+
 // TODO: Create an array of questions for user input
 const questions = [
+    // Title block
     {
        type: "input", 
        name: "title", 
        message: "What is the title of your project?"
     },
+    // About block
     {
         type: "input", 
         name: "description", 
@@ -32,7 +37,19 @@ const questions = [
         type: "input", 
         name: "unique", 
         message: "What makes your project unique?"
-    }
+    },
+    // Credits and Languages
+    {
+        type: "checkbox",
+        name: "language",
+        message: "What languages did you utilize in this project?",
+        choices: ["HTML", "CSS", "JavaScript", "Node", "JQuery", "Python", "SQL"]
+    },
+    {
+        type: "input",
+        name: "license",
+        message: "What licenses were used for this project?"
+        }
 ];
 
 // TODO: Create a function to write README file
