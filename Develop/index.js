@@ -51,25 +51,27 @@ const questions = [
         }
 ];
 
+// const readMePageContent = generateMarkdown(answers);
+
+// fs.writeFile('README.md', htmlPageContent, (err) =>
+//   err ? console.log(err) : console.log('Successfully created index.html!')
+// );
+
+
 // // TODO: Create a function to write README file
 
 
-// function writeToFile(fileName, data) {}
-
 // TODO: Create a function to initialize app
 
-    // .then((answers) => {
-        
-    //   });
 
-
-      function init() {   
-        const readMePageContent = generateMarkdown(answers);
-    
-        fs.writeFile('README.md', htmlPageContent, (err) =>
-          err ? console.log(err) : console.log('Successfully created index.html!')
-        );
+function init() {   
+    inquirer.prompt(questions).then(answers); {
+        fs.writeFile("README.md", generateMarkdown, err(),
+        err ? console.log(err) : console.log("Successfully generated README.md")
+        )
+    };
 }
+
 
 
 
