@@ -2,7 +2,6 @@
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs');
-const { default: CheckboxPrompt } = require("inquirer/lib/prompts/checkbox");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -52,16 +51,27 @@ const questions = [
         }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to write README file
+
+
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {
-    inquirer.prompt(questions)
-    .then(answers => {
-        console.log(generateMarkdown(answers))
-      });
+
+    // .then((answers) => {
+        
+    //   });
+
+
+      function init() {   
+        const readMePageContent = generateMarkdown(answers);
+    
+        fs.writeFile('README.md', htmlPageContent, (err) =>
+          err ? console.log(err) : console.log('Successfully created index.html!')
+        );
 }
+
+
 
 // Function call to initialize app
 init();
