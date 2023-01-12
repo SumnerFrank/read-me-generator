@@ -64,13 +64,16 @@ const questions = [
 // TODO: Create a function to initialize app
 
 
-function init() {   
-    inquirer.prompt(questions).then(answers); {
-        fs.writeFile("README.md", generateMarkdown, err(),
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+      fs.writeFile(
+        "README.md",
+        generateMarkdown,
+        err(),
         err ? console.log(err) : console.log("Successfully generated README.md")
-        )
-    };
-}
+      );
+    });
+  }
 
 
 
