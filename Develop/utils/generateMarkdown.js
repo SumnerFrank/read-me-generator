@@ -17,6 +17,8 @@ function generateMarkdown(data) {
   return `
   #Title 
   ${data.title}
+  ##Contents
+
   ##Description
   ${data.description}
   ##Motivation

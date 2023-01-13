@@ -45,17 +45,13 @@ const questions = [
         choices: ["HTML", "CSS", "JavaScript", "Node", "JQuery", "Python", "SQL"]
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "What licenses were used for this project?"
+        message: "Please choose a license for this project:",
+        choices: ["MIT", "Mozilla", 
+        "Open Software License 3.0", "Do What The F*ck You Want To Public License"]
         }
 ];
-
-// const readMePageContent = generateMarkdown(answers);
-
-// fs.writeFile('README.md', htmlPageContent, (err) =>
-//   err ? console.log(err) : console.log('Successfully created index.html!')
-// );
 
 
 // // TODO: Create a function to write README file
@@ -74,9 +70,6 @@ function init() {
       );
     });
   }
-
-
-
 
 // Function call to initialize app
 init();
