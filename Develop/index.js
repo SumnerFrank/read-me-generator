@@ -65,8 +65,8 @@ function init() {
       fs.writeFile(
         "README.md",
         generateMarkdown,
-        err(),
-        err ? console.log(err) : console.log("Successfully generated README.md")
+        (err) => err ? console.log(err) : console.log("Successfully generated README.md")
+
       );
     });
   }
