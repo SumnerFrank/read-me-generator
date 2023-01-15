@@ -29,7 +29,13 @@ function generateMarkdown(data) {
   #Title 
   ${data.title}
   ##Contents
-
+  -Description
+  -Motivation
+  -Solution
+  -What I Learned
+  -How This Project Stands Out
+  -Lanugages Used
+  -Licesnses 
   ##Description
   ${data.description}
   ##Motivation
