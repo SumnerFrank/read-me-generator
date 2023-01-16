@@ -16,19 +16,19 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  #Title 
+  # Title 
   ${data.title}
   ${renderLicenseBadge(data.license)}
-  ##Contents
+  ## Contents
   -Description
   -Motivation
   -Solution
@@ -36,20 +36,20 @@ function generateMarkdown(data) {
   -How This Project Stands Out
   -Lanugages Used
   -Licesnses 
-  ##Description
+  ## Description
   ${data.description}
-  ##Motivation
+  ## Motivation
   ${data.motivation}
-  ##Solution
+  ## Solution
   ${data.solution}
-  ##Learn
+  ## Learn
   ${data.learned}
-  ##Stand Out
+  ## Stand Out
   ${data.unique}
-  ##Languages
+  ## Languages
   ${data.language}
-  ##License
-  ${data.license}
+  ## License
+  This application is covered by the ${data.license} license!
 
 `;
 }
