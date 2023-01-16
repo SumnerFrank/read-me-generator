@@ -2,18 +2,17 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return //a badge??
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]"
   } else if (license === "Mozilla") {
-    return //a badge??
-  } if (license === "Open Software License 3.0") {
-    return //a badge??
+    return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]"
+  } if (license === "Boost Software License 1.0") {
+    return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]"
   } else if (license === "Do What The F*ck You Want To Public License") {
-    return //a badge??
+    return "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)]"
   } else {
     return "License Not Valid";
   }
 }
-console.log(renderLicenseBadge("MIT"));
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -28,6 +27,7 @@ function generateMarkdown(data) {
   return `
   #Title 
   ${data.title}
+  ${renderLicenseBadge(data.license)}
   ##Contents
   -Description
   -Motivation

@@ -49,7 +49,7 @@ const questions = [
         name: "license",
         message: "Please choose a license for this project:",
         choices: ["MIT", "Mozilla", 
-        "Open Software License 3.0", "Do What The F*ck You Want To Public License"]
+        "Boost Software License 1.0", "Do What The F*ck You Want To Public License"]
         }
 ];
 
@@ -64,7 +64,7 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
       fs.writeFile(
         "README.md",
-        generateMarkdown,
+        generateMarkdown(answers),
         (err) => err ? console.log(err) : console.log("Successfully generated README.md")
 
       );
