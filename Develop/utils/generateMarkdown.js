@@ -40,17 +40,16 @@ function generateMarkdown(data) {
   ${data.description}
   ## Motivation
   ${data.motivation}
-  ## Solution
-  ${data.solution}
-  ## Learn
-  ${data.learned}
   ## Stand Out
   ${data.unique}
   ## Languages
   ${data.language}
   ## License
   This application is covered by the ${data.license} license!
-
+  ## GitHub
+  ${data.gitHub}
+  ## Email
+  ${data.email}
 `;
 }
 

@@ -22,16 +22,7 @@ const questions = [
         name: "motivation", 
         message: "What was the motivation for your project?"
     },
-    {
-        type: "input", 
-        name: "solution", 
-        message: "What problem are you trying to solve with your project?"
-    },
-    {
-        type: "input", 
-        name: "learned", 
-        message: "What did you learn while making your project?"
-    },
+
     {
         type: "input", 
         name: "unique", 
@@ -50,7 +41,17 @@ const questions = [
         message: "Please choose a license for this project:",
         choices: ["MIT", "Mozilla", 
         "Boost Software License 1.0", "Do What The F*ck You Want To Public License"]
-        }
+        },
+        {
+            type: "input", 
+            name: "gitHub", 
+            message: "Please enter the link to your GitHub:"
+        },
+        {
+            type: "input", 
+            name: "email", 
+            message: "Please enter your email address:"
+        },
 ];
 
 
