@@ -29,13 +29,12 @@ function generateMarkdown(data) {
   ${data.title}
   ${renderLicenseBadge(data.license)}
   ## Contents
-  -Description
-  -Motivation
-  -Solution
-  -What I Learned
-  -How This Project Stands Out
-  -Lanugages Used
-  -Licesnses 
+  - [Description](#description)
+  - [Motivation](#motivation)
+  - [Solution](#solution)
+  - [How This Project Stands Out](unique)
+  - [Lanugages Used](#language)
+  - [Contact Me!](github)
   ## Description
   ${data.description}
   ## Motivation
