@@ -27,13 +27,15 @@ function generateMarkdown(data) {
   return `
   # Title 
   ${data.title}
+  ##  ## License
+  This application is covered by the ${data.license} license!
   ${renderLicenseBadge(data.license)}
   ## Contents
   - [Description](#description)
   - [Motivation](#motivation)
   - [Solution](#solution)
   - [How This Project Stands Out](#stand-out)
-  - [Lanugages Used](#language)
+  - [Lanugages Used](#languages)
   - [Contact Me!](#gitHub)
   ## Description
   ${data.description}
@@ -42,9 +44,7 @@ function generateMarkdown(data) {
   ## Stand Out
   ${data.stand-out}
   ## Languages
-  ${data.language}
-  ## License
-  This application is covered by the ${data.license} license!
+  ${data.languages}
   ## GitHub
   ${data.gitHub}
   ## Email
