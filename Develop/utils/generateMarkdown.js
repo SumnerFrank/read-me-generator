@@ -44,10 +44,10 @@ function generateMarkdown(data) {
   ${data.motivation}
   ## How This Project Stands Out
   ${data.unique}
-  ## Languages
+  ## Languages 
   ${data.languages}
   ## GitHub
-  <a href="https//github.com/${data.gitHub}"Find Me Here!</a>
+  https//github.com/${data.gitHub}
   ## Email
   ${data.email}
 `;
