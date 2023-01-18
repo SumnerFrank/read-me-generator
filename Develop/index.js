@@ -70,7 +70,7 @@ const questions = [
         {
             type: "input", 
             name: "gitHub", 
-            message: "Please enter the link to your GitHub:"
+            message: "Please enter our GitHub USERNAME"
         },
         {
             type: "input", 
