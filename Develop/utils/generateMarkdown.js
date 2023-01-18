@@ -26,8 +26,8 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  ## This application is covered by the ${data.license} license!
   ${renderLicenseBadge(data.license)}
+  ## This application is covered by the ${data.license} license!
   ## Contents
   - [Description](#description)
   - [Motivation](#motivation)
@@ -44,10 +44,10 @@ function generateMarkdown(data) {
   ${data.motivation}
   ## How This Project Stands Out
   ${data.unique}
-  ## Languages 
+  ## Languages
   ${data.languages}
   ## GitHub
-  https//github.com/${data.gitHub}
+  <a href="https//github.com/${data.gitHub}">Find Me Here!</a>
   ## Email
   ${data.email}
 `;
