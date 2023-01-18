@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   ## Contents
   - [Description](#description)
   - [Motivation](#motivation)
-  - [How This Project Stands Out](#unique)
+  - [How This Project Stands Out](#How-This-Project-Stands-Out)
   - [Lanugages Used](#languages)
   - [Contact Me!](#gitHub)
   ## Description
@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ## Languages
   ${data.languages}
   ## GitHub
-  <a href="https//github.com/${data.gitHub}">Find Me Here!</a>
+  <a href="https://github.com/${data.gitHub}">Find Me Here!</a>
   ## Email
   ${data.email}
 `;
