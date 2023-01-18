@@ -1,5 +1,5 @@
 
-  # read me
+  # ReadMe Generator
   ## This application is covered by the MIT license!
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
   ## Contents
@@ -9,18 +9,18 @@
   - [Lanugages Used](#languages)
   - [Contact Me!](#gitHub)
   ## Description
-  makes a read me
-  pull from github
-  this project can be used to create a launch-ready readme for any project
-  If you'd like to contribute to this project, make a branch and request a merge
-  run the command "node ." and the function will prompt you with questions in your terminal
+  This ReadMe Generator creates a detailed, high quality ReadMe.md file for your project.
+  To install this project, you will simply need to pull the package down from GitHub and begin using it. 
+  This project would be used at the beginning of a project to clearly outline what the purpose of the project is, how to install it, how it can be used, and how it can be tested. 
+  To contribute to this project, please create a branch and create a pull request when finished. 
+  To test this project, you will simply need to install Inquirer by running "npm install" in your terminal, and then run "node (js file name)" to be prompted with questions. 
   ## Motivation
-  Writing a ReadMe is hard and time consuming. This takes out the mental exhaustion of remembering what to include. 
+  Writing a ReadMe is hard and time consuming. This takes out the mental exhaustion of remembering what to include.
   ## How This Project Stands Out
-  This project is unique because it's made with love
+  This project stands out because it is made with love. 
   ## Languages
   JavaScript,Node
   ## GitHub
-  github.com/sumnerfrank
+  <a href="https//github.com/SumnerFrank"Find Me Here!</a>
   ## Email
   sumnerfranklinm@gmail.com

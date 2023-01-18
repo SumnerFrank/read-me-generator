@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ## Languages
   ${data.languages}
   ## GitHub
-  ${data.gitHub}
+  <a href="https//github.com/${data.gitHub}"Find Me Here!</a>
   ## Email
   ${data.email}
 `;

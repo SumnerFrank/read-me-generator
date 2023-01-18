@@ -5,6 +5,11 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
+    {
+        type: "confirm", 
+        name: "syntax", 
+        message: "Do you agree to use complete sentences when answering these questions, aside from providing links?"
+     },
     // Title block
     {
        type: "input", 
