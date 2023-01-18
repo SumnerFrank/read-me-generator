@@ -19,6 +19,26 @@ const questions = [
     },
     {
         type: "input", 
+        name: "installation", 
+        message: "How do you install this project?"
+    },    
+    {
+        type: "input", 
+        name: "usage", 
+        message: "How would this project be used?"
+    },   
+    {
+        type: "input", 
+        name: "contributionGuidelines", 
+        message: "What are the contribution guidelines for this project?"
+    },
+    {
+        type: "input", 
+        name: "testInstructions", 
+        message: "How do you test this project?"
+    },  
+    {
+        type: "input", 
         name: "motivation", 
         message: "What was the motivation for your project?"
     },

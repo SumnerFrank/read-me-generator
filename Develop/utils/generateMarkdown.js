@@ -36,6 +36,10 @@ function generateMarkdown(data) {
   - [Contact Me!](#gitHub)
   ## Description
   ${data.description}
+  ${data.installation}
+  ${data.usage}
+  ${data.contributionGuidelines}
+  ${data.testInstructions}
   ## Motivation
   ${data.motivation}
   ## How This Project Stands Out
