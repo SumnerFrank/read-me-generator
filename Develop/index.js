@@ -31,7 +31,7 @@ const questions = [
     // Credits and Languages
     {
         type: "checkbox",
-        name: "language",
+        name: "languages",
         message: "What languages did you utilize in this project?",
         choices: ["HTML", "CSS", "JavaScript", "Node", "JQuery", "Python", "SQL"]
     },
