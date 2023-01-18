@@ -21,6 +21,6 @@
   ## Languages
   JavaScript,Node
   ## GitHub
-  <a href="https//github.com/SumnerFrank"Find Me Here!</a>
+  <a href="https//github.com/SumnerFrank">Find Me Here!</a>
   ## Email
   sumnerfranklinm@gmail.com
