@@ -32,15 +32,15 @@ function generateMarkdown(data) {
   - [Description](#description)
   - [Motivation](#motivation)
   - [Solution](#solution)
-  - [How This Project Stands Out](#unique)
+  - [How This Project Stands Out](#stand-out)
   - [Lanugages Used](#language)
-  - [Contact Me!](#github)
+  - [Contact Me!](#gitHub)
   ## Description
   ${data.description}
   ## Motivation
   ${data.motivation}
   ## Stand Out
-  ${data.unique}
+  ${data.stand-out}
   ## Languages
   ${data.language}
   ## License
