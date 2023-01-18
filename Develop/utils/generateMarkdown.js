@@ -38,7 +38,7 @@ function generateMarkdown(data) {
   ${data.description}
   ## Motivation
   ${data.motivation}
-  ## Stand Out
+  ## How This Project Stands Out
   ${data.unique}
   ## Languages
   ${data.languages}
