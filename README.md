@@ -22,6 +22,4 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents,
 THEN I am taken to the corresponding section of the README.
 
-<video width="320" height="240" controls>
-  <source src="Develop/utils/RMG - Walkthrough.mp4" type="video/mp4">
-</video>
+<a href="./Develop/utils/RMG - Walkthrough.mp4"> Walkthrough Video, Click Here</a>
