@@ -22,4 +22,7 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents,
 THEN I am taken to the corresponding section of the README.
 
-<video src="https://drive.google.com/file/d/1gN22sH9c1BNeI_zyACZl8SSaGY0yCXx0/view"></video>
+
+
+https://user-images.githubusercontent.com/115412068/213916841-11e84fc8-78b6-48ad-824c-083230b140e5.mp4
+
